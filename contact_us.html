@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>	"Analyse My Data: Contact Us" </title>
+	<link rel="stylesheet" type="text/css" href="Css.css">
+
+	<link href= "bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+</head>
+
+<body>
+	<ul class="nav nav-pills nav-justified">
+		  <li role="presentation" class="active"><a href="Index.html">Home</a></li>
+		  <li role="presentation"><a href="contacts.html">Agents</a></li>
+		  <li role="presentation"><a href="gallery.html">Gallery</a></li>
+		  <li role="presentation"><a href="contact_us.html">Contact Us</a></li>
+	</ul>
+	
+	<h1> AnalyseMyData</h1>
+
+<p>Further Inquiry:</p>
+  		<form action="action_page.php">
+    	<label for="fname">First Name</label>
+    	<input type="text" id="fname" name="firstname"><br>
+
+    	<label for="lname">Last Name</label>
+    	<input type="text" id="lname" name="lastname"><br>
+
+	    <label for="country">State</label>
+	    <select id="country" name="country">
+	    <option value="UK">United Kingdom</option>
+	    <option value="australia">Australia</option>
+	    <option value="canada">Canada</option>
+	    <option value="usa">USA</option></select><br>
+
+ 	 	<input type="radio" name="gender" value="male" checked> Male<br>
+  		<input type="radio" name="gender" value="female"> Female<br>
+  		<input type="radio" name="gender" value="other"> Other<br>
+ 	 	Request Description:<br><input type:"text" name="description"><br>
+ 	 	
+ 	 	<label for="Data scientist">Agent</label>
+	    <select id="data scientist" name="name">
+	    <option value="Peter Griffin">Peter Griffin</option>
+	    <option value="Lois Griffin">Lois Griffin</option>
+	    <option value="Joe Swanson">Joe Swanson</option>
+	    <option value="Cleveland Brown">Cleveland Brown</option></select>
+	
+	 <input type="submit" value="Submit">
+  	</form>
+	</p></div>
+</body>
+</html>
